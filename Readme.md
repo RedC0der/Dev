@@ -43,25 +43,26 @@ This is a **feature-rich backend system** for a **video hosting platform**. Buil
    cd Dev
    
 2. **Install dependencies**
-
-npm install
-
+   ```bash
+    npm install
+ 
 2. **Configure environment variables (Create a .env file in the root directory)**
-PORT=6000
-MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
-CORS_ORIGIN=*
-ACCESS_TOKEN_SECRET=your_secret_key
-ACCESS_TOKEN_EXPIRY=1d
-REFRESH_TOKEN_SECRET=your_secret_key
-REFRESH_TOKEN_EXPIRY=10d
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
+    ```bash
+   PORT=6000 
+   MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
+   CORS_ORIGIN=*
+   ACCESS_TOKEN_SECRET=your_secret_key
+   ACCESS_TOKEN_EXPIRY=1d
+   REFRESH_TOKEN_SECRET=your_secret_key
+   REFRESH_TOKEN_EXPIRY=10d
+   CLOUDINARY_CLOUD_NAME=your_cloud_name
+   CLOUDINARY_API_KEY=your_api_key
+   CLOUDINARY_API_SECRET=your_api_secret
 
 
 2. **Start the server**
-
-npm run dev
+   ```bash
+   npm run dev
 
 ---
 
