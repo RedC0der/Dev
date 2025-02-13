@@ -32,16 +32,6 @@ This is a **feature-rich backend system** for a **video hosting platform**. Buil
 | **Multer** | File upload handling |
 | **CORS & dotenv** | Security & environment management |
 
-## 🛠️ Tech Stack
-| **Technology** | **Usage** |
-|----------------|-----------|
-| **Node.js**    | Backend runtime |
-| **Express.js** | Server-side framework |
-| **MongoDB & Mongoose** | Database & ORM |
-| **JWT & Bcrypt** | Authentication & security |
-| **Cloudinary** | Video storage |
-| **Multer** | File upload handling |
-| **CORS & dotenv** | Security & environment management |
 
 ---
 
@@ -73,13 +63,24 @@ CLOUDINARY_API_SECRET=your_api_secret
 Start the server
 
 npm run dev
-🎯 API Endpoints
-Method	Endpoint	Description
-POST	/api/auth/signup	Register a new user
-POST	/api/auth/login	User login
-POST	/api/videos/upload	Upload a video
-GET	/api/videos/:id	Get video details
+
+---
+
+## 🛠️ Tech Stack
+| **Technology** | **Usage** |
+|--------------|-------------|
+| **Node.js** | Backend runtime |
+| **Express.js** | Server-side framework |
+| **MongoDB & Mongoose** | Database & ORM |
+| **JWT & Bcrypt** | Authentication & security |
+| **Cloudinary** | Video storage |
+| **Multer** | File upload handling |
+| **CORS & dotenv** | Security & environment management |
+
+---
+
 🎯 Future Enhancements
+
 ✅ Video search & recommendations
 
 ✅ Analytics dashboard for creators
