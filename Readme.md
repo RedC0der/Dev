@@ -39,11 +39,11 @@ git clone https://github.com/Redc0der/Dev.git
 cd project-name
 
 2. **Install dependencies**
-```bash
+
 npm install
 
 3 .** Configure environment variables (Create a .env file in the root directory)**
-```bash
+
 PORT=6000
 MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
 CORS_ORIGIN=*
@@ -55,9 +55,10 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 Start the server
-```bash
+
 npm run dev
-🎯 API Endpoints
+
+
 ## 🎯 API Endpoints
 
 ```bash
