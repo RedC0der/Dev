@@ -41,13 +41,12 @@ This is a **feature-rich backend system** for a **video hosting platform**. Buil
    ```bash
    git clone https://github.com/Redc0der/Dev.git
    cd Dev
-Install dependencies
+   
+2. **Install dependencies**
 
 npm install
-Configure environment variables
-Create a .env file in the root directory and add the following:
 
-
+2. **Configure environment variables (Create a .env file in the root directory)**
 PORT=6000
 MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
 CORS_ORIGIN=*
@@ -60,7 +59,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 
-Start the server
+2. **Start the server**
 
 npm run dev
 
