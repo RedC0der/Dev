@@ -34,16 +34,16 @@ This is a **feature-rich backend system** for a **video hosting platform**. Buil
 
 ## 🚀 Installation & Setup
 1. **Clone the repository**
-
+```bash
 git clone https://github.com/Redc0der/Dev.git
 cd project-name
 
 2. **Install dependencies**
-
+```bash
 npm install
 
 3 .** Configure environment variables (Create a .env file in the root directory)**
-env
+```bash
 PORT=6000
 MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
 CORS_ORIGIN=*
@@ -55,9 +55,7 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 Start the server
-bash
-Copy
-Edit
+```bash
 npm run dev
 🎯 API Endpoints
 ## 🎯 API Endpoints
@@ -78,4 +76,4 @@ npm run dev
 🏆 Contribution
 We welcome contributions! Feel free to fork the repository and submit pull requests.
 
-```bash
+
