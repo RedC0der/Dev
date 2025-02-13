@@ -34,6 +34,48 @@ This is a **feature-rich backend system** for a **video hosting platform**. Buil
 
 ## 🚀 Installation & Setup
 1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/project-name.git
+
+git clone https://github.com/Redc0der/Dev.git
 cd project-name
+
+2. **Install dependencies**
+
+npm install
+
+3 .** Configure environment variables (Create a .env file in the root directory)**
+env
+PORT=6000
+MONGODB_URI=mongodb+srv://your_username:your_password@your-cluster.mongodb.net
+CORS_ORIGIN=*
+ACCESS_TOKEN_SECRET=your_secret_key
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_SECRET=your_secret_key
+REFRESH_TOKEN_EXPIRY=10d
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+Start the server
+bash
+Copy
+Edit
+npm run dev
+🎯 API Endpoints
+## 🎯 API Endpoints
+
+```bash
+| Method  | Endpoint             | Description         |
+|---------|----------------------|---------------------|
+| POST    | /api/auth/signup     | Register a new user |
+| POST    | /api/auth/login      | User login         |
+| POST    | /api/videos/upload   | Upload a video     |
+| GET     | /api/videos/:id      | Get video details  |
+
+🎯 Future Enhancements
+✅ Video search & recommendations
+✅ Analytics dashboard for creators
+✅ Live streaming feature
+
+🏆 Contribution
+We welcome contributions! Feel free to fork the repository and submit pull requests.
+
+```bash
